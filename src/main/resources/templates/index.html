@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta charset="utf-8">
+    <title> Picas y Famas</title>
+  </head>
+  <body>
+    <h1> Picos y Famas </h1> 	
+    <p th:text="'Guess Number: ' + ${guessNumber}" /> 
+    <form action="/" method="post">        
+    	<p>Intento: <input type="text"  name="lastnumber"/></p>     
+        <p><input  type="submit" name="play" value="play" /> 
+           <input type="submit" name="restart" value="restart" /></p>
+    </form>
+    <p th:text="'Last Number: ' + ${lastnumber}" /> 
+    <p th:text="'Last Result: ' + ${result}" /> 
+  </body>
+</html>
+

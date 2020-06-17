@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+body *{
+   text-align: center;  
+   color: white;  
+   font-family: 'Sriracha', cursive;
+}
+h1{
+    font-size: 45px;
+}
+
+p * , p{
+     font-size: 25px;  
+}
+
+p{
+    padding: 20px;
+}
+
+
+body {
+   background-color: black;    
+}
+
+input{
+    color:black;
+    max-width: 150px;
+}
