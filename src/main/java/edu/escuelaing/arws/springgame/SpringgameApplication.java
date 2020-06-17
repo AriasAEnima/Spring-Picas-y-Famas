@@ -58,6 +58,9 @@ public class SpringgameApplication {
                }
            }
            result="Picas :"+picas+" Famas: "+famas;
+           if(famas==4){
+               result="Ha adivinado el numero !! ";
+           }
        }      
     }
     
